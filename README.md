@@ -14,6 +14,8 @@ At least for the time being, I am ok with using LLMs to answer questions that I 
 
 If you are willing to specify absolutely everything it needs to do at every step, and review *everything* at every single step, you can get some good results. You can also get a lot of use out of using an LLM or agentic coding tool like it's your senior dev coworker who is capable and has a ton of knowledge, but is also insanely overconfident and completely incapable of admitting when they are wrong or just don't know something. That person can be a great resource, but I don't really trust them. I wouldn't let that person push to prod on my application, and I don't think you would either. 
 
+I generally agree with the principles laid out in [Wikipedia's article on responsibly using LLMs](https://en.wikipedia.org/wiki/Wikipedia:Responsibly_using_large_language_models). I especially resonate with the concept of [CIR](https://en.wikipedia.org/wiki/Wikipedia:Competence_is_required), or "Competence is Required". That page is referenced in the page on responsible LLM use. Basically, if I'm not putting in the work to satisfy the conditions laid out, generally, for competence on Wikipedia, I am not using the LLM responsibly, whether I'm editing Wikipedia or writing code.
+
 ## Rules
 - LLMs *NEVER* commit to main on any of my projects
 - LLM generated code is *NEVER* committed to main or any release branch without extensive human review. I want to feel that I may as well have written the code myself. If I am doing less work than it would take to write the code from a StackOverflow answer, that is not acceptable for code I am responsible for
