@@ -1,5 +1,5 @@
 # llm-policy
-My thoughts and rules for agentic coding and LLM usage
+## My thoughts and rules for agentic coding and LLM usage
 
 > [!IMPORTANT]
 > **ALL OF MY PROJECTS CONTAINING ANY AMOUNT OF LLM-GENERATED CODE ARE INDICATED AS SUCH WITH A DISCLAIMER AND A LINK TO THIS DOCUMENT IN THE README**
@@ -7,6 +7,8 @@ My thoughts and rules for agentic coding and LLM usage
 I have not found LLMs to be particularly intelligent. In my experience, they are not capable of consistently writing complex code, let alone complex programs. Letting an LLM or a group of LLMs write or maintain a complex program is not something I personally see going well. In my workflow and experience, LLMs are good for answering questions or certain coding tasks, as long as they have the right harness and tooling around them, good prompts, and tight constraints. These systems are still evolving, and I don't see them as useful in the way that some industries are touting them quite yet, and I'm not sure LLM technology in its current form can do that at all. I am very willing to be proven wrong on that.
 
 If you are willing to specify absolutely everything an agent needs to do at every step and review *everything* they do *at every single step*, you can get some good results. I have found that doing this often takes as much time and effort as doing it myself, without the valuable processes of trial and error that are essential to the way I learn.
+
+I also think that its important to understand that just because you can get an LLM to generate software for you doesn't mean you should. [This Codeberg blog post](https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html) gets at this point very effectively. I see a lot of talk online about how we are in a new era of software, if something doesn't work exactly how you want it to, just get Claude to build it for you! I think anyone who says something like that is vastly underestimating the resources and abstract capital (e.g. data center processing power, handing over your brain to LLM providers, etc) that Claude would use to build it, and are not doing any kind of cost benefit analysis that makes sense. Work with the software you have, use LLMs to responsibly to augment your development process when you are meaningfully building or contributing to community-driven software, and don't do things with LLMs that waste other people's time and resources. LLMs are a tool for developing software responsibly, not a replacement for everything that goes into building and maintaining meaningful software, to say nothing about the myriad other ways LLMs are used to waste resources and create problems without commensurate benefit.
 
 I personally use LLMs in the following ways in my workflow:
 
